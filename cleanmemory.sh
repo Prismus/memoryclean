@@ -15,4 +15,4 @@ sleep 5
 
 echo "0" >  sudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
 
-echo "Cleaning unsed memory Finish"
+echo "Cleaning unused memory Finish"
