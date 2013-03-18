@@ -1,10 +1,10 @@
 ﻿#!/bin/bash
 
 ###################################################
-###         Clear unused memory                        			   ###
-###         Auteur: Georges Kut                     				   ###
-###         email: gku@itgk.ch                     					   ###
-###         For Redhat Suse Fedora                                 ### 
+###         Clear unused memory                 ###
+###         Auteur: Georges Kut                 ###
+###         email: gku@itgk.ch                  ###
+###         For Redhat Suse Fedora              ### 
 ###################################################
 
 echo "Clear Unused Memory Start"
@@ -15,4 +15,4 @@ sleep 5
 
 echo "0" > sync && echo 3 | tee /proc/sys/vm/drop_caches
 
-echo "Cleaning unsed memory Finish"
+echo "Cleaning unused memory Finish"
