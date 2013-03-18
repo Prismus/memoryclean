@@ -1,4 +1,5 @@
 Created by Georges Kut
+
 From www.itgk.ch
 
 Date: 01/02/2013
@@ -9,10 +10,12 @@ This script clean unused memory witch was not freed properly after being used by
 
 
 Download for Ubuntu Mint Debian:
+
 wget https://raw.github.com/Prismus/memoryclean/master/cleanmemory.sh
 
 Download for Redhat Suse Fedora:
-https://raw.github.com/Prismus/memoryclean/master/cleanmemoryother.sh
+
+wget https://raw.github.com/Prismus/memoryclean/master/cleanmemoryother.sh
 
 chmod a+x cleanmemory.sh
 
@@ -22,6 +25,7 @@ usage:
 Adding to the crontab:
 
 crontab -e 
+
 5 * * * * /script/clearmemory.sh
 
 
