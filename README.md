@@ -9,24 +9,21 @@ Cleanmemory.sh is tested on ubuntu, debian, redhat enterprise, suse and fedora
 This script clean unused memory witch was not freed properly after being used by your system
 
 
-Download for Ubuntu Mint Debian:
+Download for Ubuntu Mint Debian Redhat Suse Fedora:
 
-wget https://raw.github.com/Prismus/memoryclean/master/cleanmemory.sh
+wget https://raw.github.com/Prismus/memoryclean/master/Cleanmem
 
-Download for Redhat Suse Fedora:
 
-wget https://raw.github.com/Prismus/memoryclean/master/cleanmemoryother.sh
-
-chmod a+x cleanmemory.sh
+chmod a+x Cleanmem
 
 usage:
-./cleanmemory.sh
+./Cleanmem
 
 Adding to the crontab:
 
 crontab -e 
 
-5 * * * * /script/clearmemory.sh
+5 * * * * /script/Cleanmem
 
 
 
