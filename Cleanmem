@@ -5,6 +5,7 @@
 ###                Auteur: Georges Kut          ###
 ###                email: gku@itgk.ch           ###
 ###                 Date: February 2013         ###
+###   Works on RedHat, Suse, Debian,Ubuntu      ### 
 ###################################################
 
 echo "Clear Unused Memory Start"
